@@ -36,12 +36,12 @@
 
 命令行输出如下：
 
-![](/image/git_week_img.png)
+[![NXy77R.png](https://s1.ax1x.com/2020/07/03/NXy77R.png)](https://imgchr.com/i/NXy77R)
 
 
 在./note文件夹中出现名称为 2020-07-01 TO 2020-07-03.md 的 Markdown 格式文件
 
 预览如下：
 
-![](/image/md预览.png)
+[![NXybA1.png](https://s1.ax1x.com/2020/07/03/NXybA1.png)](https://imgchr.com/i/NXybA1)
 
