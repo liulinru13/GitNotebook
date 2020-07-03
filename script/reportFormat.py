@@ -73,14 +73,15 @@ def build_day_content(date, day_note_content):
 '''
 def generate_markdown_file(msg_dict):
   body = ''
-  for date in msg_dict:
+  dates = sorted(msg_dict.keys())
+  
+  for date in dates:
     body += build_day_content(date, msg_dict[date])
     body += '\n\n'
   log(body)
   
   title = ''
   # log(msg_dict.keys())
-  dates = sorted(msg_dict.keys())
   dates.reverse()
   if len(dates) > 1:
     title = '%s TO %s' % (dates[-1] , dates[0])
