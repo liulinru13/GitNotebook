@@ -7,7 +7,7 @@ if [ ! -d "./.gitNote" ]; then
   touch .gitNote
 fi
 
-date > .gitNote
+date > ../.gitNote
 
 git add .
 git ci -m $1
