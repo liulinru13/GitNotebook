@@ -3,11 +3,11 @@ if [ ! -n "$1" ]; then
   exit 1
 fi
 
-if [ ! -d "../.gitNote" ]; then
-  touch ../.gitNote
+if [ ! -d "./.gitNote" ]; then
+  touch ./.gitNote
 fi
 
-date > ../.gitNote
+date > ./.gitNote
 
 git add .
 git ci -m $1
